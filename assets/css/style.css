@@ -1614,6 +1614,28 @@
     margin: 0 auto;
 }
 
+.what_we_do_image .c_1, .clients .c_1 {
+        width: 150px;
+        left: -20px;
+    }
+
+    .card_about_item.c_2 {
+    width: 150px;
+    left: 13px;
+}
+
+.card_about_item.c_4 {
+    width: 150px;
+    position: relative;
+    left: 10px;
+}
+
+.card_about_item.c_3 {
+    width: 150px;
+    position: relative;
+    left: -15px;
+}
+
     .card_about_item h5 {
         font-size: 18px;
         text-align: center;
