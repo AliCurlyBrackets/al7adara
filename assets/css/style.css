@@ -2346,6 +2346,13 @@ body.open .menu li:nth-child(7) { transition-delay: 1.5s; }
 .Services .card_info{
     left: 25px !important;
 }
+
+.service_about .service_about_data .card_item h5 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+
 }
 
 /* ===================================== */
