@@ -2331,7 +2331,6 @@ body.open .menu li:nth-child(7) { transition-delay: 1.5s; }
 .header{
     overflow: hidden !important;
     min-width: 100vw !important;
-    min-height: 100vh !important;
 }
 }
 
