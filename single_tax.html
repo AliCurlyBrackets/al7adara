@@ -16,11 +16,58 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <!-- Css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/style.css?v=5">
     <script src="assets/js/jQuery.js"></script>
 </head>
 
 <body>
+
+    <!-- Start Navbar Mobile -->
+    <div class="Header_Mobile">
+        <div class="All_Contact_Header">
+            <div class="Social_icon">
+                <a href=""><img src="assets/images/Social_Icon/whatsapp.png" alt=""></a>
+                <a href=""><img src="assets/images/Social_Icon/insta.png" alt=""></a>
+                <a href=""><img src="assets/images/Social_Icon/tiktok.png" alt=""></a>
+            </div>
+
+            <div class="Client_Contact">
+                <a href="">01020422954 <img src="assets/images/Social_Icon/telephone.png" alt=""></a>
+                <a href="">شارع الحج - ريع ذاخر - مكة المكرمة 24231 <img src="assets/images/Social_Icon/Location.png"
+                        alt=""></a>
+            </div>
+        </div>
+
+        <div class="mobile_navbar_main">
+            <a href="#" class="mobile-menu-toggle" aria-label="فتح القائمة">
+                <span></span>
+            </a>
+
+            <div class="mobile_logo">
+                <img src="assets/images/Navbar_Mobile/Group 73 (1).png" alt="logo">
+            </div>
+        </div>
+
+        <!-- Mobile Animated Menu -->
+        <header class="mobile_menu_wrapper">
+            <nav class="menu-navigation">
+                <i class="menu-background top"></i>
+                <i class="menu-background middle"></i>
+                <i class="menu-background bottom"></i>
+
+                <ul class="menu">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="fixed_car.html">صيانة السيارات</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li><a href="faq.html">الأسئلة المتكررة</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="contact_us.html" class="menu-btn">احجز موعد</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- End Navbar Mobile -->
 
 
     <!-- Start Navbar -->
@@ -48,12 +95,13 @@
                     </div>
 
                     <ul>
-                        <li> <a href="#"> المدونة </a> </li>
-                        <li> <a href="#"> الأسئلة المتكررة </a> </li>
-                        <li> <a href="#"> خدماتنا </a> </li>
-                        <li> <a href="#"> صيانة السيارات </a> </li>
-                        <li> <a href="#"> صيانة السيارات</a> </li>
-                        <li> <a href="#"> الرئيسية </a> </li>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="fixed_car.html">صيانة السيارات</a></li>
+                        <li><a href="services.html">خدماتنا</a></li>
+                        <li><a href="faq.html">الأسئلة المتكررة</a></li>
+                        <li><a href="blog.html">المدونة</a></li>
+                        <li><a href="contact_us.html" class="menu-btn">احجز موعد</a></li>
                     </ul>
 
                 </div>
@@ -64,6 +112,7 @@
         </div>
     </div>
     <!-- End Navbar -->
+
     <div class="Page_title"
         style="background-image: url('assets/images/من نحن/page_title.webp');position: unset; display: flex;justify-content: center;align-items: center;">
         <div class="text" style="position: unset;">
@@ -274,6 +323,27 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".mobile-menu-toggle");
+            const menuLinks = document.querySelectorAll(".menu a");
+
+            if (menuToggle) {
+                menuToggle.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.body.classList.toggle("open");
+                });
+            }
+
+            menuLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    document.body.classList.remove("open");
+                });
+            });
+        });
     </script>
 
 </body>

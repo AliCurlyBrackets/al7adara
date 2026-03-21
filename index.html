@@ -16,7 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <!-- Css -->
-    <link rel="stylesheet" href="assets/css/style.css?v=4">
+    <link rel="stylesheet" href="assets/css/style.css?v=5">
     <script src="assets/js/jQuery.js"></script>
 </head>
 
@@ -24,26 +24,51 @@
 
 
     <!-- Start Navbar Mobile -->
-        <div class="Header_Mobile">
-            <div class="All_Contact_Header">
-                <div class="Social_icon">
-                    <a href=""> <img src="assets/images/Social_Icon/whatsapp.png" alt=""> </a>
-                    <a href=""> <img src="assets/images/Social_Icon/insta.png" alt=""> </a>
-                    <a href=""> <img src="assets/images/Social_Icon/tiktok.png" alt=""> </a>
-                </div>
-                <div class="Client_Contact">
-                        <a href=""> 01020422954 <img src="assets/images/Social_Icon/telephone.png" alt=""> </a>
-                        <a href=""> شارع الحج - ريع ذاخر - مكة المكرمة 24231 <img
-                                src="assets/images/Social_Icon/Location.png" alt=""> </a>
-                    </div>
+    <div class="Header_Mobile">
+        <div class="All_Contact_Header">
+            <div class="Social_icon">
+                <a href=""><img src="assets/images/Social_Icon/whatsapp.png" alt=""></a>
+                <a href=""><img src="assets/images/Social_Icon/insta.png" alt=""></a>
+                <a href=""><img src="assets/images/Social_Icon/tiktok.png" alt=""></a>
             </div>
-            <div class="" style="background-color: #fff;display: flex;justify-content: space-between;">
-            <img src="assets/images/Navbar_Mobile/Menu Bar.png" alt="" style="cursor: pointer;">
-          
-            <img src="assets/images/Navbar_Mobile/Group 73 (1).png" alt="">
+
+            <div class="Client_Contact">
+                <a href="">01020422954 <img src="assets/images/Social_Icon/telephone.png" alt=""></a>
+                <a href="">شارع الحج - ريع ذاخر - مكة المكرمة 24231 <img src="assets/images/Social_Icon/Location.png"
+                        alt=""></a>
+            </div>
         </div>
+
+        <div class="mobile_navbar_main">
+            <a href="#" class="mobile-menu-toggle" aria-label="فتح القائمة">
+                <span></span>
+            </a>
+
+            <div class="mobile_logo">
+                <img src="assets/images/Navbar_Mobile/Group 73 (1).png" alt="logo">
+            </div>
         </div>
-    <!-- Start Navbar Mobile -->
+
+        <!-- Mobile Animated Menu -->
+        <header class="mobile_menu_wrapper">
+            <nav class="menu-navigation">
+                <i class="menu-background top"></i>
+                <i class="menu-background middle"></i>
+                <i class="menu-background bottom"></i>
+
+                <ul class="menu">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="fixed_car.html">صيانة السيارات</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li><a href="faq.html">الأسئلة المتكررة</a></li>
+                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="contact_us.html" class="menu-btn">احجز موعد</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- End Navbar Mobile -->
 
 
     <!-- Start Navbar -->
@@ -71,12 +96,13 @@
                     </div>
 
                     <ul>
-                        <li> <a href="#"> المدونة </a> </li>
-                        <li> <a href="#"> الأسئلة المتكررة </a> </li>
-                        <li> <a href="#"> خدماتنا </a> </li>
-                        <li> <a href="#"> صيانة السيارات </a> </li>
-                        <li> <a href="#"> من نحن </a> </li>
-                        <li> <a href="#"> الرئيسية </a> </li>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="fixed_car.html">صيانة السيارات</a></li>
+                        <li><a href="services.html">خدماتنا</a></li>
+                        <li><a href="faq.html">الأسئلة المتكررة</a></li>
+                        <li><a href="blog.html">المدونة</a></li>
+                        <li><a href="contact_us.html" class="menu-btn">احجز موعد</a></li>
                     </ul>
 
                 </div>
@@ -88,47 +114,48 @@
     </div>
     <!-- End Navbar -->
 
-<!-- Start Hero Section -->
-<div class="Hero">
+    <!-- Start Hero Section -->
+    <div class="Hero">
 
 
 
-    <div class="swiper Swiper_Hero" style="height: 100%;">
+        <div class="swiper Swiper_Hero" style="height: 100%;">
 
-        <div class="swiper-wrapper">
+            <div class="swiper-wrapper">
 
-            <div class="swiper-slide" style=" background-image: url('assets/images/Hero/bg.png');
+                <div class="swiper-slide" style=" background-image: url('assets/images/Hero/bg.png');
       height: calc(100vh - 164px);
       background-size: cover;">
-                <div class="data_hero">
-                    <div class="imag_hero_data animate__animated animate__slideInLeft">
-                        <img src="assets/images/Hero/Rectangle 191.png" alt="">
-                    </div>
-                    <div class="Info_Hero_Data wow animate__animated animate__slideInRight">
-                        <h2> خبراء صيانة السيارات </h2>
-                        <p>
-                            نوفر لك خدمات صيانة وإصلاح السيارات بأعلى مستوى من الاحترافية والجودة. فريقنا المتميز يضمن
-                            أداء
-                            سيارتك بأمان وكفاءة عالية في كل مرة.
-                        </p>
-                        <div class="Book_now">
-                            <a href="#"> احجز موعد </a>
+                    <div class="data_hero">
+                        <div class="imag_hero_data animate__animated animate__slideInLeft">
+                            <img src="assets/images/Hero/Rectangle 191.png" alt="">
                         </div>
-                    </div>
+                        <div class="Info_Hero_Data wow animate__animated animate__slideInRight">
+                            <h2> خبراء صيانة السيارات </h2>
+                            <p>
+                                نوفر لك خدمات صيانة وإصلاح السيارات بأعلى مستوى من الاحترافية والجودة. فريقنا المتميز
+                                يضمن
+                                أداء
+                                سيارتك بأمان وكفاءة عالية في كل مرة.
+                            </p>
+                            <div class="Book_now">
+                                <a href="#"> احجز موعد </a>
+                            </div>
+                        </div>
 
+                    </div>
                 </div>
+
+
+
             </div>
 
-            
+            <div class="swiper-pagination hero-pagination"></div>
+
 
         </div>
-
-        <div class="swiper-pagination hero-pagination"></div>
-
-
     </div>
-</div>
-<!-- End Hero Section -->
+    <!-- End Hero Section -->
 
 
     <!-- Start Section what we do -->
@@ -156,7 +183,7 @@
                 </div>
             </div>
             <div class="what_we_do_info">
-                <p class="p_title"> <img src="assets/images/من نحن/wrench_icon1.png" alt="">  ماذا نقدم ؟ </p>
+                <p class="p_title"> <img src="assets/images/من نحن/wrench_icon1.png" alt=""> ماذا نقدم ؟ </p>
                 <h4> خبرة واحترافية في صيانة السيارات </h4>
                 <div class="info_icon">
                     <img src="assets/images/من نحن/gear_17680251 1.png" />
@@ -201,107 +228,107 @@
 
     <!-- Start Section Services -->
     <section class="Services">
-    <p class="sub_title">
-        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
-        ماذا نفعل
-        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
-    </p>
+        <p class="sub_title">
+            <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+            ماذا نفعل
+            <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+        </p>
 
-    <h3> خدمات صيانة متكاملة وموثوقة لسيارتك </h3>
+        <h3> خدمات صيانة متكاملة وموثوقة لسيارتك </h3>
 
-    <!-- Swiper Container (كلاس جديد مختلف) -->
-    <div class="Services_Data myServicesSwiper swiper">
+        <!-- Swiper Container (كلاس جديد مختلف) -->
+        <div class="Services_Data myServicesSwiper swiper">
 
-        <div class="swiper-wrapper">
+            <div class="swiper-wrapper">
 
-            <div class="Card_Serv swiper-slide">
-                <div class="card_image">
-                    <img src="assets/images/Services/Rectangle 165-6.webp" />
+                <div class="Card_Serv swiper-slide">
+                    <div class="card_image">
+                        <img src="assets/images/Services/Rectangle 165-6.webp" />
+                    </div>
+                    <div class="card_info">
+                        <img src="assets/images/Services/wrench_5272494 1.png" />
+                        <h6> خدمات صيانة سيارات احترافية </h6>
+                        <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
+                    </div>
                 </div>
-                <div class="card_info">
-                    <img src="assets/images/Services/wrench_5272494 1.png" />
-                    <h6> خدمات صيانة سيارات احترافية </h6>
-                    <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
+
+                <div class="Card_Serv swiper-slide">
+                    <div class="card_image">
+                        <img src="assets/images/Services/Rectangle 165-6.webp" />
+                    </div>
+                    <div class="card_info">
+                        <img src="assets/images/Services/wrench_5272494 1.png" />
+                        <h6> خدمات صيانة سيارات احترافية </h6>
+                        <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
+                    </div>
                 </div>
+
+                <div class="Card_Serv swiper-slide">
+                    <div class="card_image">
+                        <img src="assets/images/Services/Rectangle 165-6.webp" />
+                    </div>
+                    <div class="card_info">
+                        <img src="assets/images/Services/wrench_5272494 1.png" />
+                        <h6> خدمات صيانة سيارات احترافية </h6>
+                        <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
+                    </div>
+                </div>
+
+
+                <div class="Card_Serv swiper-slide">
+                    <div class="card_image">
+                        <img src="assets/images/Services/Rectangle 165-6.webp" />
+                    </div>
+                    <div class="card_info">
+                        <img src="assets/images/Services/wrench_5272494 1.png" />
+                        <h6> خدمات صيانة سيارات احترافية </h6>
+                        <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
+                    </div>
+                </div>
+
+
+
             </div>
-
-            <div class="Card_Serv swiper-slide">
-                <div class="card_image">
-                    <img src="assets/images/Services/Rectangle 165-6.webp" />
-                </div>
-                <div class="card_info">
-                    <img src="assets/images/Services/wrench_5272494 1.png" />
-                    <h6> خدمات صيانة سيارات احترافية </h6>
-                    <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
-                </div>
-            </div>
-
-            <div class="Card_Serv swiper-slide">
-                <div class="card_image">
-                    <img src="assets/images/Services/Rectangle 165-6.webp" />
-                </div>
-                <div class="card_info">
-                    <img src="assets/images/Services/wrench_5272494 1.png" />
-                    <h6> خدمات صيانة سيارات احترافية </h6>
-                    <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
-                </div>
-            </div>
-
-
-            <div class="Card_Serv swiper-slide">
-                <div class="card_image">
-                    <img src="assets/images/Services/Rectangle 165-6.webp" />
-                </div>
-                <div class="card_info">
-                    <img src="assets/images/Services/wrench_5272494 1.png" />
-                    <h6> خدمات صيانة سيارات احترافية </h6>
-                    <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
-                </div>
-            </div>
-
-
 
         </div>
-
-    </div>
-</section>
+    </section>
     <!-- End Section Services -->
 
     <!-- Start Fixed Car Section -->
-   <section class="fixed_car">
-    <p class="sub_title">
-        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
-        صيانة السيارات
-        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
-    </p>
+    <section class="fixed_car">
+        <p class="sub_title">
+            <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+            صيانة السيارات
+            <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+        </p>
 
-    <h3> صيانة شاملة تضمن أداءً ممتازًا وأمانًا تامًا لسيارتك </h3>
+        <h3> صيانة شاملة تضمن أداءً ممتازًا وأمانًا تامًا لسيارتك </h3>
 
-    <!-- كلاس سوايبر مختلف -->
-    <div class="card_fixed_car fixedCarSwiper swiper">
+        <!-- كلاس سوايبر مختلف -->
+        <div class="card_fixed_car fixedCarSwiper swiper">
 
-        <div class="swiper-wrapper">
+            <div class="swiper-wrapper">
 
-            <a href="" class="card_fixed_item fix_1 swiper-slide">
-                <h5> سيارات ألمانى </h5>
-            </a>
+                <a href="" class="card_fixed_item fix_1 swiper-slide">
+                    <h5> سيارات ألمانى </h5>
+                </a>
 
-            <a href="" class="card_fixed_item fix_2 swiper-slide">
-                <h5> سيارات ألمانى </h5>
-            </a>
+                <a href="" class="card_fixed_item fix_2 swiper-slide">
+                    <h5> سيارات ألمانى </h5>
+                </a>
 
-            <a href="" class="card_fixed_item fix_3 swiper-slide">
-                <h5> سيارات ألمانى </h5>
-            </a>
+                <a href="" class="card_fixed_item fix_3 swiper-slide">
+                    <h5> سيارات ألمانى </h5>
+                </a>
 
-            <a href="" class="card_fixed_item fix_4 swiper-slide">
-                <h5> سيارات ألمانى </h5>
-            </a>
+                <a href="" class="card_fixed_item fix_4 swiper-slide">
+                    <h5> سيارات ألمانى </h5>
+                </a>
+
+            </div>
 
         </div>
-
-    </div>
-</section>
+    </section>
     <!-- End Fixed Car Section -->
 
     <!-- Start Section Client_analysis -->
@@ -437,105 +464,105 @@
 
 
     <!-- Start Section Blog -->
-   <section class="Blog">
-    <p class="sub_title">
-        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
-        مدونة الأخبار
-        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
-    </p>
+    <section class="Blog">
+        <p class="sub_title">
+            <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+            مدونة الأخبار
+            <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+        </p>
 
-    <h5 class="mb-5">
-        كل ما تحتاج معرفته عن صيانة السيارات، آخر التحديثات، ونصائح للحفاظ على أداء سيارتك
-    </h5>
+        <h5 class="mb-5">
+            كل ما تحتاج معرفته عن صيانة السيارات، آخر التحديثات، ونصائح للحفاظ على أداء سيارتك
+        </h5>
 
-    <!-- كلاس جديد للسلايدر -->
-    <div class="blog_data blogSwiper swiper">
+        <!-- كلاس جديد للسلايدر -->
+        <div class="blog_data blogSwiper swiper">
 
-        <div class="swiper-wrapper">
+            <div class="swiper-wrapper">
 
-            <div class="card swiper-slide">
-                <div class="image_card">
-                    <img src="assets/images/Home/blog1.webp" alt="">
+                <div class="card swiper-slide">
+                    <div class="image_card">
+                        <img src="assets/images/Home/blog1.webp" alt="">
+                    </div>
+                    <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
+                    <p class="pe-3 pt-1">
+                        صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
+                    </p>
+                    <hr>
+                    <a href="#" class="Read_More_article">
+                        <img src="assets/images/Home/arrow.png" /> أعرف المزيد
+                    </a>
+
+                    <div class="date">
+                        <span> 5 </span>
+                        <span> Nov </span>
+                    </div>
                 </div>
-                <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
-                <p class="pe-3 pt-1">
-                    صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
-                </p>
-                <hr>
-                <a href="#" class="Read_More_article">
-                    <img src="assets/images/Home/arrow.png" /> أعرف المزيد
-                </a>
 
-                <div class="date">
-                    <span> 5 </span>
-                    <span> Nov </span>
+                <div class="card swiper-slide">
+                    <div class="image_card">
+                        <img src="assets/images/Home/blog1.webp" alt="">
+                    </div>
+                    <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
+                    <p class="pe-3 pt-1">
+                        صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
+                    </p>
+                    <hr>
+                    <a href="#" class="Read_More_article">
+                        <img src="assets/images/Home/arrow.png" /> أعرف المزيد
+                    </a>
+
+                    <div class="date">
+                        <span> 5 </span>
+                        <span> Nov </span>
+                    </div>
                 </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image_card">
+                        <img src="assets/images/Home/blog1.webp" alt="">
+                    </div>
+                    <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
+                    <p class="pe-3 pt-1">
+                        صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
+                    </p>
+                    <hr>
+                    <a href="#" class="Read_More_article">
+                        <img src="assets/images/Home/arrow.png" /> أعرف المزيد
+                    </a>
+
+                    <div class="date">
+                        <span> 5 </span>
+                        <span> Nov </span>
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="image_card">
+                        <img src="assets/images/Home/blog1.webp" alt="">
+                    </div>
+                    <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
+                    <p class="pe-3 pt-1">
+                        صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
+                    </p>
+                    <hr>
+                    <a href="#" class="Read_More_article">
+                        <img src="assets/images/Home/arrow.png" /> أعرف المزيد
+                    </a>
+
+                    <div class="date">
+                        <span> 5 </span>
+                        <span> Nov </span>
+                    </div>
+                </div>
+
+
             </div>
-
-              <div class="card swiper-slide">
-                <div class="image_card">
-                    <img src="assets/images/Home/blog1.webp" alt="">
-                </div>
-                <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
-                <p class="pe-3 pt-1">
-                    صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
-                </p>
-                <hr>
-                <a href="#" class="Read_More_article">
-                    <img src="assets/images/Home/arrow.png" /> أعرف المزيد
-                </a>
-
-                <div class="date">
-                    <span> 5 </span>
-                    <span> Nov </span>
-                </div>
-            </div>
-
-
-               <div class="card swiper-slide">
-                <div class="image_card">
-                    <img src="assets/images/Home/blog1.webp" alt="">
-                </div>
-                <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
-                <p class="pe-3 pt-1">
-                    صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
-                </p>
-                <hr>
-                <a href="#" class="Read_More_article">
-                    <img src="assets/images/Home/arrow.png" /> أعرف المزيد
-                </a>
-
-                <div class="date">
-                    <span> 5 </span>
-                    <span> Nov </span>
-                </div>
-            </div>
-
-
-               <div class="card swiper-slide">
-                <div class="image_card">
-                    <img src="assets/images/Home/blog1.webp" alt="">
-                </div>
-                <h5 class="pe-3 pt-3"> كيف تحافظ على أداء سيارتك لأطول فترة ممكنة ؟ </h5>
-                <p class="pe-3 pt-1">
-                    صيانة السيارة بانتظام هي السر للحفاظ على أدائها وأمانها على الطريق.
-                </p>
-                <hr>
-                <a href="#" class="Read_More_article">
-                    <img src="assets/images/Home/arrow.png" /> أعرف المزيد
-                </a>
-
-                <div class="date">
-                    <span> 5 </span>
-                    <span> Nov </span>
-                </div>
-            </div>
-
 
         </div>
-
-    </div>
-</section>
+    </section>
     <!-- End Section Blog -->
 
 
@@ -559,7 +586,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control col-12 mt-3" placeholder="البريد الالكتروني" name="" id="">
+                            <input type="email" class="form-control col-12 mt-3" placeholder="البريد الالكتروني" name=""
+                                id="">
                         </div>
                         <div class="Submit">
                             <input type="submit" value="تواصل معنا">
@@ -581,21 +609,21 @@
                 </div>
 
                 <div class="All_Links">
-<div class="footer_links">
-                    <ul>
-                        <li> <a href="#"> من نحن </a> </li>
-                        <li> <a href="#"> خدماتنا </a> </li>
-                        <li> <a href="#"> تواصل معنا </a> </li>
-                    </ul>
-                </div>
+                    <div class="footer_links">
+                        <ul>
+                            <li> <a href="#"> من نحن </a> </li>
+                            <li> <a href="#"> خدماتنا </a> </li>
+                            <li> <a href="#"> تواصل معنا </a> </li>
+                        </ul>
+                    </div>
 
-                <div class="footer_links2">
-                    <ul>
-                        <li> <a href="#"> من نحن </a> </li>
-                        <li> <a href="#"> خدماتنا </a> </li>
-                        <li> <a href="#"> تواصل معنا </a> </li>
-                    </ul>
-                </div>
+                    <div class="footer_links2">
+                        <ul>
+                            <li> <a href="#"> من نحن </a> </li>
+                            <li> <a href="#"> خدماتنا </a> </li>
+                            <li> <a href="#"> تواصل معنا </a> </li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="Subscrip">
@@ -626,6 +654,27 @@
     <!-- End Section Footer -->
 
 
+    <header class="header">
+        <nav class="menu-navigation">
+            <a href="#" class="menu-icon-toggle"><span></span></a>
+
+            <i class="menu-background top"></i>
+            <i class="menu-background middle"></i>
+            <i class="menu-background bottom"></i>
+
+            <ul class="menu">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">من نحن</a></li>
+                <li><a href="#">صيانة السيارات</a></li>
+                <li><a href="#">خدماتنا</a></li>
+                <li><a href="#">الأسئلة المتكررة</a></li>
+                <li><a href="#">المدونة</a></li>
+                <li><a href="#" class="btn">احجز موعد</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
     <!--######################################################-->
     <!--################ Impprt Scripts ######################-->
     <!--######################################################-->
@@ -641,6 +690,26 @@
     <script src="assets/js/Slider_Hero_Section.js"></script>
     <script>
         new WOW().init();
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".mobile-menu-toggle");
+            const menuLinks = document.querySelectorAll(".menu a");
+
+            if (menuToggle) {
+                menuToggle.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.body.classList.toggle("open");
+                });
+            }
+
+            menuLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    document.body.classList.remove("open");
+                });
+            });
+        });
     </script>
 
 </body>
