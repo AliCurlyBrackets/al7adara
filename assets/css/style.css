@@ -51,6 +51,11 @@
 
   }
 
+  .Nav_Bar_Links ul {
+    list-style: none;
+    direction: rtl;
+}
+
   .navs {
       background-color: var(--primary-color);
       height: 164px;
