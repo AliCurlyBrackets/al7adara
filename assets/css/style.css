@@ -1541,9 +1541,9 @@
     padding: 20px 0;
 }
 
-.Services .Services_Data{
+/* .Services .Services_Data{
     height: 420px;
-}
+} */
 
 .myServicesSwiper .swiper-slide {
     height: auto;
@@ -1883,9 +1883,9 @@ footer .Copy_Right{
     left: 32px;
 }
 
-.Services .Services_Data {
+/* .Services .Services_Data {
     height: 480px;
-}
+} */
 
 footer .form_contact_us{
     width: 100%;
@@ -2048,6 +2048,10 @@ footer .form_contact_us{
 
 .Social_icon a img{
     width: 25px;
+}
+
+.Services_Data{
+    width: 90% !important;
 }
 
 }
