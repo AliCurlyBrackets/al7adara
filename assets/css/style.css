@@ -2332,6 +2332,20 @@ body.open .menu li:nth-child(7) { transition-delay: 1.5s; }
     overflow: hidden !important;
     min-width: 100vw !important;
 }
+
+.Read_More_article{
+    width: auto;
+}
+
+.date{
+    top: 145px;
+}
+.Card_Serv{
+    width: 100% !important;
+}
+.Services .card_info{
+    left: 25px !important;
+}
 }
 
 /* ===================================== */
