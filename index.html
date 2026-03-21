@@ -201,11 +201,20 @@
 
     <!-- Start Section Services -->
     <section class="Services">
-        <p class="sub_title"> <img src="assets/images/من نحن/wrench_icon1.png" alt=""> ماذا نفعل <img
-                src="assets/images/من نحن/wrench_icon1.png" alt=""> </p>
-        <h3> خدمات صيانة متكاملة وموثوقة لسيارتك </h3>
-        <div class="Services_Data">
-            <div class="Card_Serv">
+    <p class="sub_title">
+        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+        ماذا نفعل
+        <img src="assets/images/من نحن/wrench_icon1.png" alt="">
+    </p>
+
+    <h3> خدمات صيانة متكاملة وموثوقة لسيارتك </h3>
+
+    <!-- Swiper Container (كلاس جديد مختلف) -->
+    <div class="Services_Data myServicesSwiper swiper">
+
+        <div class="swiper-wrapper">
+
+            <div class="Card_Serv swiper-slide">
                 <div class="card_image">
                     <img src="assets/images/Services/Rectangle 165-6.webp" />
                 </div>
@@ -215,7 +224,8 @@
                     <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
                 </div>
             </div>
-            <div class="Card_Serv">
+
+            <div class="Card_Serv swiper-slide">
                 <div class="card_image">
                     <img src="assets/images/Services/Rectangle 165-6.webp" />
                 </div>
@@ -223,11 +233,10 @@
                     <img src="assets/images/Services/wrench_5272494 1.png" />
                     <h6> خدمات صيانة سيارات احترافية </h6>
                     <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
-
                 </div>
             </div>
 
-            <div class="Card_Serv">
+            <div class="Card_Serv swiper-slide">
                 <div class="card_image">
                     <img src="assets/images/Services/Rectangle 165-6.webp" />
                 </div>
@@ -235,11 +244,11 @@
                     <img src="assets/images/Services/wrench_5272494 1.png" />
                     <h6> خدمات صيانة سيارات احترافية </h6>
                     <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
-
                 </div>
             </div>
 
-            <div class="Card_Serv">
+
+            <div class="Card_Serv swiper-slide">
                 <div class="card_image">
                     <img src="assets/images/Services/Rectangle 165-6.webp" />
                 </div>
@@ -247,11 +256,15 @@
                     <img src="assets/images/Services/wrench_5272494 1.png" />
                     <h6> خدمات صيانة سيارات احترافية </h6>
                     <p> نقوم بصيانة وإصلاح كل أعطال سيارتك بسرعة وبدقة </p>
-
                 </div>
             </div>
+
+
+
         </div>
-    </section>
+
+    </div>
+</section>
     <!-- End Section Services -->
 
     <!-- Start Fixed Car Section -->
@@ -510,16 +523,16 @@
                     <form action="">
                         <div class="form-group">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="col-6">
                                     <input type="text" class="form-control" placeholder="الاسم">
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="col-6">
                                     <input type="text" class="form-control" placeholder="الهاتف">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control col-12 mt-3" placeholder="البريد" name="" id="">
+                            <input type="email" class="form-control col-12 mt-3" placeholder="البريد الالكتروني" name="" id="">
                         </div>
                         <div class="Submit">
                             <input type="submit" value="تواصل معنا">
@@ -540,7 +553,8 @@
                     </div>
                 </div>
 
-                <div class="footer_links">
+                <div class="All_Links">
+<div class="footer_links">
                     <ul>
                         <li> <a href="#"> من نحن </a> </li>
                         <li> <a href="#"> خدماتنا </a> </li>
@@ -554,6 +568,7 @@
                         <li> <a href="#"> خدماتنا </a> </li>
                         <li> <a href="#"> تواصل معنا </a> </li>
                     </ul>
+                </div>
                 </div>
 
                 <div class="Subscrip">
@@ -590,6 +605,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="assets/js/services_slider.js"></script>
     <script src="assets/js/testmontional.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

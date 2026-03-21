@@ -1527,6 +1527,55 @@
         display: none;
     }
 
+    .All_Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* سلايدر الخدمات فقط */
+.myServicesSwiper {
+    padding: 20px 0;
+}
+
+.Services .Services_Data{
+    height: 420px;
+}
+
+.myServicesSwiper .swiper-slide {
+    height: auto;
+}
+
+/* شكل الكارد */
+.Services .Card_Serv {
+    background: #fff;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.Services .Card_Serv:hover {
+    transform: translateY(-5px);
+}
+
+.Services .card_image img {
+    width: 100%;
+    display: block;
+}
+
+.Services .card_info {
+    padding: 15px;
+    text-align: center;
+}
+
+.Services .card_info img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+
+
 /* ############################################# */
 /* ############### Start Mobile _Desgn ########################## */
 /* ############################################# */
@@ -1637,9 +1686,10 @@
 }
 
     .card_about_item h5 {
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
         margin: 0 auto;
+        line-height: 24px;
     }
 
     .what_we_do .what_we_do_data .what_we_do_info {
@@ -1683,7 +1733,107 @@
     display: none;
 }
 
+.clients{
+    width: 100%;
+    padding: 0;
 }
+
+img.Car{
+    display: none;
+}
+
+.Good{
+    background-image: url(../images/Home/about_car_mobile.png);
+}
+
+.item_good{
+        margin: 30px 20px;
+}
+
+.Testmontional{
+    padding: 10px;
+}
+
+.Testmontional h5{
+    margin-top: 40px;
+}
+
+.Clien_Review{
+    height: 170px;
+    margin-top: 70px;
+}
+
+.mySwiper{
+    width: 100% !important;
+    position: unset !important;
+}
+
+.Clien_Review p{
+    width: 100%;
+}
+
+.Client_Name{
+    width:72%;
+}
+
+.mySwiper .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    left: -130px;
+    top: 341px;
+    width: 100%;
+}
+
+.Blog{
+    margin-top: 40px;
+}
+
+
+footer .form_contact_us{
+    display: block;
+}
+
+.logo_form img {
+    width: 100%;
+}
+
+.form_contact{
+    direction: rtl;
+}
+
+footer .form_contact_us .Submit input{
+    margin: 0 auto;
+}
+
+.footer{
+    display: block;
+}
+
+.footer .footer_content {
+    width: 100%;
+}
+
+footer .Copy_Right{
+    flex-direction: column;
+}
+
+
+.Subscrip {
+
+    display: none;
+
+}
+
+.Services .card_info{
+    left: 50px;
+}
+
+.Services .Services_Data {
+    height: 480px;
+}
+
+
+}
+
 
   
 /* ############################################# */
