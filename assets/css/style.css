@@ -430,6 +430,7 @@
 
   .card_fixed_car .fix_1 {
       background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/fixed_car/type_car/01.webp");
+      background-size: cover;
   }
 
   .card_fixed_car .fix_2 {
@@ -1575,6 +1576,61 @@
 }
 
 
+/* سلايدر fixed car */
+.fixedCarSwiper {
+    padding: 20px 0;
+}
+
+.fixedCarSwiper .swiper-slide {
+    height: auto;
+}
+
+/* الكروت */
+.fixed_car .card_fixed_item {
+    height: 400px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* أمثلة ألوان (بدل الصور لو حابب) */
+.fix_1 { background: #1e1e1e; }
+.fix_2 { background: #444; }
+.fix_3 { background: #777; }
+.fix_4 { background: #999; }
+
+/* سلايدر المدونة */
+.blogSwiper {
+    padding: 20px 0;
+}
+
+.blogSwiper .swiper-slide {
+    height: auto;
+}
+
+/* الكارت */
+.Blog .card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+}
+
+.Blog .card:hover {
+    transform: translateY(-6px);
+}
+
+/* الصورة */
+.Blog .image_card img {
+    width: 100%;
+    display: block;
+}
+
+
 
 /* ############################################# */
 /* ############### Start Mobile _Desgn ########################## */
@@ -1829,6 +1885,10 @@ footer .Copy_Right{
 
 .Services .Services_Data {
     height: 480px;
+}
+
+footer .form_contact_us{
+    width: 100%;
 }
 
 
